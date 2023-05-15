@@ -67,6 +67,8 @@ export class SettingControllerBase {
             id: true,
           },
         },
+
+        description: true,
       },
     });
   }
@@ -97,6 +99,8 @@ export class SettingControllerBase {
             id: true,
           },
         },
+
+        description: true,
       },
     });
   }
@@ -128,6 +132,8 @@ export class SettingControllerBase {
             id: true,
           },
         },
+
+        description: true,
       },
     });
     if (result === null) {
@@ -176,6 +182,8 @@ export class SettingControllerBase {
               id: true,
             },
           },
+
+          description: true,
         },
       });
     } catch (error) {
@@ -215,6 +223,8 @@ export class SettingControllerBase {
               id: true,
             },
           },
+
+          description: true,
         },
       });
     } catch (error) {

@@ -26,6 +26,7 @@ export const SettingList = (props: ListProps): React.ReactElement => {
         <ReferenceField label="User" source="user.id" reference="User">
           <TextField source={USER_TITLE_FIELD} />
         </ReferenceField>
+        <TextField label="description" source="description" />
       </Datagrid>
     </List>
   );

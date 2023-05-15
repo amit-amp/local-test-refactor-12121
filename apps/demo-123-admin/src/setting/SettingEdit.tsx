@@ -5,6 +5,7 @@ import {
   EditProps,
   ReferenceInput,
   SelectInput,
+  TextInput,
 } from "react-admin";
 import { UserTitle } from "../user/UserTitle";
 
@@ -15,6 +16,7 @@ export const SettingEdit = (props: EditProps): React.ReactElement => {
         <ReferenceInput source="user.id" reference="User" label="User">
           <SelectInput optionText={UserTitle} />
         </ReferenceInput>
+        <TextInput label="description" multiline source="description" />
       </SimpleForm>
     </Edit>
   );

@@ -5,4 +5,5 @@ export type SettingOrderByInput = {
   createdAt?: SortOrder;
   updatedAt?: SortOrder;
   userId?: SortOrder;
+  description?: SortOrder;
 };

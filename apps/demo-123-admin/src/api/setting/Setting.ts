@@ -5,4 +5,5 @@ export type Setting = {
   createdAt: Date;
   updatedAt: Date;
   user?: User | null;
+  description: string | null;
 };
