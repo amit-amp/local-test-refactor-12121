@@ -13,6 +13,10 @@ import { TemplateList } from "./template/TemplateList";
 import { TemplateCreate } from "./template/TemplateCreate";
 import { TemplateEdit } from "./template/TemplateEdit";
 import { TemplateShow } from "./template/TemplateShow";
+import { SettingList } from "./setting/SettingList";
+import { SettingCreate } from "./setting/SettingCreate";
+import { SettingEdit } from "./setting/SettingEdit";
+import { SettingShow } from "./setting/SettingShow";
 import { jwtAuthProvider } from "./auth-provider/ra-auth-jwt";
 
 const App = (): React.ReactElement => {
@@ -52,6 +56,13 @@ const App = (): React.ReactElement => {
           edit={TemplateEdit}
           create={TemplateCreate}
           show={TemplateShow}
+        />
+        <Resource
+          name="Setting"
+          list={SettingList}
+          edit={SettingEdit}
+          create={SettingCreate}
+          show={SettingShow}
         />
       </Admin>
     </div>
