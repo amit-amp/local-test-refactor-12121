@@ -9,6 +9,10 @@ import { UserList } from "./user/UserList";
 import { UserCreate } from "./user/UserCreate";
 import { UserEdit } from "./user/UserEdit";
 import { UserShow } from "./user/UserShow";
+import { TemplateList } from "./template/TemplateList";
+import { TemplateCreate } from "./template/TemplateCreate";
+import { TemplateEdit } from "./template/TemplateEdit";
+import { TemplateShow } from "./template/TemplateShow";
 import { jwtAuthProvider } from "./auth-provider/ra-auth-jwt";
 
 const App = (): React.ReactElement => {
@@ -41,6 +45,13 @@ const App = (): React.ReactElement => {
           edit={UserEdit}
           create={UserCreate}
           show={UserShow}
+        />
+        <Resource
+          name="Template"
+          list={TemplateList}
+          edit={TemplateEdit}
+          create={TemplateCreate}
+          show={TemplateShow}
         />
       </Admin>
     </div>
