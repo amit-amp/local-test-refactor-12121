@@ -5,4 +5,5 @@ export type TemplateOrderByInput = {
   createdAt?: SortOrder;
   updatedAt?: SortOrder;
   name?: SortOrder;
+  description?: SortOrder;
 };

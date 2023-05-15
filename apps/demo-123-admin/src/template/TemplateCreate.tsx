@@ -6,6 +6,7 @@ export const TemplateCreate = (props: CreateProps): React.ReactElement => {
     <Create {...props}>
       <SimpleForm>
         <TextInput label="name" source="name" />
+        <TextInput label="description" multiline source="description" />
       </SimpleForm>
     </Create>
   );

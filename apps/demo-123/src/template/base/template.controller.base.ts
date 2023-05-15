@@ -54,6 +54,7 @@ export class TemplateControllerBase {
         createdAt: true,
         updatedAt: true,
         name: true,
+        description: true,
       },
     });
   }
@@ -79,6 +80,7 @@ export class TemplateControllerBase {
         createdAt: true,
         updatedAt: true,
         name: true,
+        description: true,
       },
     });
   }
@@ -105,6 +107,7 @@ export class TemplateControllerBase {
         createdAt: true,
         updatedAt: true,
         name: true,
+        description: true,
       },
     });
     if (result === null) {
@@ -140,6 +143,7 @@ export class TemplateControllerBase {
           createdAt: true,
           updatedAt: true,
           name: true,
+          description: true,
         },
       });
     } catch (error) {
@@ -174,6 +178,7 @@ export class TemplateControllerBase {
           createdAt: true,
           updatedAt: true,
           name: true,
+          description: true,
         },
       });
     } catch (error) {

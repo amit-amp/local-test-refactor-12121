@@ -6,6 +6,7 @@ export const TemplateEdit = (props: EditProps): React.ReactElement => {
     <Edit {...props}>
       <SimpleForm>
         <TextInput label="name" source="name" />
+        <TextInput label="description" multiline source="description" />
       </SimpleForm>
     </Edit>
   );
