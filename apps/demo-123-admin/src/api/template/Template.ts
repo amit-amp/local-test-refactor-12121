@@ -3,4 +3,5 @@ export type Template = {
   createdAt: Date;
   updatedAt: Date;
   name: string | null;
+  description: string | null;
 };
